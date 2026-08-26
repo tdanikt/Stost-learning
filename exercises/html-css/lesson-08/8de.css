@@ -1,0 +1,94 @@
+p {
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.name-input {
+  width: 113px;
+  height: 35px;
+  padding-left: 12px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(176, 176, 176);
+}
+
+.email-input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 246px;
+  height: 35px;
+  padding-left: 12px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(176, 176, 176);
+}
+
+.sigh-up-button {
+  height: 40px;
+  width: 261px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0, 119, 255);
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  transition: background-color 150ms,
+    box-shadow 150ms,
+    color 150ms;
+} .sigh-up-button:hover {
+  background-color: rgb(0, 106, 228);
+} .sigh-up-button:active {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  color:rgb(0, 106, 228);
+}
+
+.request-para {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.pickup-input,
+.dest-input {
+  display: block;
+  width: 300px;
+  height: 37px;
+  margin-bottom: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+  padding-left: 15px;
+} .dest-input {
+  margin-bottom: 25px;
+}
+
+.request-button {
+  background-color: rgb(38, 38, 38);
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  margin-right: 7px;
+  transition: background-color 150ms;
+} .request-button:hover {
+  background-color: rgb(60, 60, 60);
+} .request-button:active {
+  background-color: rgb(80, 80, 80);
+}
+
+.schedule-button {
+  background-color: rgb(239, 239, 239);
+  color: rgb(87, 87, 87);
+  border: none;
+  padding: 14px 22px;
+  transition: background-color 150ms;
+} .schedule-button:hover {
+  background-color: rgb(235, 235, 235);
+} .schedule-button:active {
+  background-color: rgb(221, 221, 221);
+}

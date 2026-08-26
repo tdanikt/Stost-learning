@@ -1,0 +1,50 @@
+p {
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.input-name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-email {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.survey {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  width: 225px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.yes-button,
+.no-button {
+  vertical-align: middle;
+}
+
+.google-logo {
+  height: 50px;
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.search-bar {
+  border-radius: 50px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+  height: 37px;
+  width: 460px;
+  display: block;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
