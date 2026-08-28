@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lesson-11-exercises-abc</title>
+    <style>
+      p { font-family: arial; }
+      .exercise {
+        color: rgb(96, 96, 96);
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .grid-11a {
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+      .grid-11b {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+      .grid-11c {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="exercise">11a</p>
+    <div class="grid-11a">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <p class="exercise">11b</p>
+    <div class="grid-11b">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <p class="exercise">11c</p>
+    <div class="grid-11c">
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+  </body>
+</html>

@@ -5,13 +5,19 @@ p {
 }
 
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 }
 
 .search-bar {
   display: block;
   font-size: 12px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
 .video-author,
@@ -32,22 +38,15 @@ p {
   margin-bottom: 11px;
 }
 
-.video-preview {
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
-.pfp-div {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+.pfp {
 }
 
-.video-info-div {
-  display: inline-block;
-  width: 200px;
+.video-info {
 }
 
 .pfp-img {
