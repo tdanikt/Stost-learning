@@ -1,0 +1,50 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.exercise {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(96, 96, 96);
+}
+
+.video-card {
+  width: 600px;
+  height: 170px;
+}
+
+.video-preview {
+  height: 135px;
+  display: inline-block;
+}
+
+.preview {
+  height: 100%;
+  display: inline-block;
+}
+
+.video-info {
+  width: 290px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 600;
+  width: 260px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.author,
+.stats {
+  color: rgb(96, 96, 96);
+  margin-bottom: 9px;
+  margin-left: 10px;
+}

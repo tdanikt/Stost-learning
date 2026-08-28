@@ -2,60 +2,63 @@
 <html>
   <head>
     <title>Youtube.com Clone</title>
-    <style>
-      .thumbnail {
-        width: 300px;
-        display: block;
-      }
-      .search-bar {
-        display: block;
-        font-size: 12px;
-      }
-      .video-title {
-        width: 300px;
-      }
-      .video-author,
-      .video-stats {
-        display: block;
-      }
-      .video-preview {
-        display: inline-block;
-        width: 300px;
-        vertical-align: top;
-        margin-right: 15px;
-      }
-    </style>
+
+    <link rel="stylesheet" href="youtube.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <input class="search-bar" type="text" placeholder="Search">
 
     <div  class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      </div>
+      <div>
+        <div class="pfp-div">
+          <img class="pfp-img" src="pfps/pfp-1.png">
+        </div>
 
-      <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-      </p>
-      <p class="video-author">
-        Marques Brownlee
-      </p>
-      <p class="video-stats">
-        3.4M views &#183; 6 months ago
-      </p>
+        <div class="video-info-div">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p> 
+        </div>
+
+      </div>
     </div>
-
     <div  class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-2.png">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.png">
+      </div>
+      <div>
+        <div class="pfp-div">
+          <img class="pfp-img" src="pfps/pfp-2.png">
+        </div>
 
-      <p class="video-title">
-        Try Not To Laugh Challenge #9
-      </p>
-      <p class="video-author">
-        Markiplier
-      </p>
-      <p class="video-stats">
-        19M views &#183; 4 years ago
-      </p>
+        <div class="video-info-div">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p> 
+        </div>
+
+      </div>
     </div>
+
   </body>
 </html>
