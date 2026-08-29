@@ -1,0 +1,78 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, arial;
+}
+
+.inbox {
+  margin: 10px 10px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  max-width: 400px;
+  height: 65px;
+  margin-top: 0;
+  margin-bottom: 6px;
+} .card:hover {
+  background-color: whitesmoke;
+}
+
+.profile-picture-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  margin-left: 8px;
+}
+
+.profile-picture {
+  height: 50px;
+  border-radius: 30px;
+}
+
+.card-info {
+  flex: 1;
+  margin-right: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.time {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.sub-title {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.message {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
